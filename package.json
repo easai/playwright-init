@@ -1,0 +1,25 @@
+{
+  "name": "playwright-init",
+  "version": "1.0.0",
+  "description": "Automate init process for Playwright",
+  "main": "index.js",
+  "bin": {
+    "playwright-init": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "easai",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/prompts": "^2.4.9",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2"
+  }
+}
