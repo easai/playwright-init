@@ -87,13 +87,13 @@ const content = `// Auto-generated
 
 export const sites = [
 ${sites
-    .map(
-        (site) => `  {
+        .map(
+            (site) => `  {
     name: "${site.name}",
     baseUrl: "${site.baseUrl}",
   }`
-    )
-    .join(",\n")}
+        )
+        .join(",\n")}
 ];
 `;
 
