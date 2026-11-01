@@ -3,7 +3,8 @@ import { sites } from './sites/sites';
 
 const defaultConfig = {
   testDir: './tests',
-
+  testMatch: /.*\.spec\.ts$/,
+  
   fullyParallel: true,
 
   forbidOnly: !!process.env.CI,
