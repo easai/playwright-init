@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Automate init process for Playwright",
   "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
   "bin": {
     "playwright-init": "./dist/index.js"
   },
