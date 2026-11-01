@@ -63,12 +63,7 @@ async function main() {
         }
         );
 
-        execSync(
-            "npx tsc --init", {
-            cwd: response.projectName,
-            stdio: "inherit"
-        }
-        );
+
 
         const sites: { name: string; baseUrl: string }[] = [];
 
